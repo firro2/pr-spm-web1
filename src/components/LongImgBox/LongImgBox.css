@@ -1,0 +1,21 @@
+
+
+.LongImgBox__Box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.LongImgBox__Block{
+    margin-inline: clamp(3px,2vw,20px);
+}
+
+.LongImgBox__img{
+    background-color: var(--primary-color);
+   
+    width: clamp(120px,40vw,550px);
+    height: clamp(80px,20vw,250px);
+    border-radius: 25px;
+    user-select: none
+}

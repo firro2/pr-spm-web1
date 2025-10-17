@@ -1,0 +1,40 @@
+.Block{
+  margin-inline: 5%;
+  margin-block: 20%;
+}
+
+:root {
+  --primary-color: #f063e4; /* A shade of blue */
+  --secondary-color: #8f6ee9; /* A shade of green */
+  --text-color: #333333; /* Dark gray for text */
+  --background-color: rgb(252, 240, 255); /* Light gray for background */
+}
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--background-color);
+  color: var(--text-color);
+   margin: 0;
+  padding: 0;
+}
+
+body::selection {
+
+background: var(--secondary-color); /* Safari */
+
+}
+
+
+
+h1,h2,h3,h4,h5,h6,p,a,button{
+  font-family: "Flow Circular", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+
+  color: var(--text-color);
+}

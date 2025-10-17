@@ -1,0 +1,48 @@
+.FirstBlock{
+ display: flex;
+}
+
+.FirstBlock__PromoArea{
+    width: 50%;
+}
+
+.PromoArea__Title{
+    max-width: 650px;
+    font-size: clamp(12px,2vw,70px);
+}
+
+.PromoArea__InfoText{
+    font-size: clamp(8px,2vw,40px);
+    max-width: 480px;
+}
+
+.PromoArea__Button{
+    background-color: var(--text-color);
+    border: none;
+    border-radius: 25px;
+    color: var(--background-color);
+
+    font-size: clamp(8px,2vw,40px);
+    padding: clamp(11px,2vw,22px) clamp(40px,2vw,80px) clamp(11px,2vw,22px) clamp(40px,2vw,80px);
+    transition: 0.3s;
+    
+    user-select: none;
+}
+
+.PromoArea__Button:hover{
+    background-color: rgb(87, 87, 87);
+}
+
+.FirstBlock__ImgArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    user-select: none
+}
+
+.ImgArea__img{
+    width: clamp(35px,20vw,400px);
+    height: clamp(35px,20vw,400px);
+    user-select: none;
+}
